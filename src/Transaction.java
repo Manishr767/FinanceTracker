@@ -77,20 +77,10 @@ public class Transaction {
 
     }
     public double getSignedAmount() {
-
-
-        if(type==TransactionType.EXPENSE){
-            return amount--;
-        }else {
-            return amount;
-
+        if (type == TransactionType.EXPENSE) {
+            return -amount;
         }
-
+        return amount;
     }
-
-
-
-
-
 
 }
