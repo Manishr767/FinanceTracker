@@ -37,3 +37,7 @@ transaction_data.txt
 
 # Compiled Java output
 *.class
+
+# Project-specific files
+.idea/
+transaction_data.txt
